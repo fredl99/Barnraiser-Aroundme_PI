@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------
+// This file is part of AROUNDMe
+// 
+// Copyright (C) 2003-2008 Barnraiser
+// http://www.barnraiser.org/
+// info@barnraiser.org
+// 
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.txt.  If not, see
+// <http://www.gnu.org/licenses/>
+// -----------------------------------------------------------------------
+
+
+>> Upgrading AROUNDMe Personal identity
+   
+   1. Backup [never skip this]
+   2. Upload the new installation into a new directory and copy the following
+      files / directories from your old release to your new one:
+
+          aroundme_pi/.htaccess (in aroundme_pi directory if applicable)
+          aroundme_pi/core/config/aroundme_core.config.php
+          assets/
+          data1234/ (the direcoty name is always "data" followed by some
+                    random numbers)
+
+   3. Edit your aroundme_core.config.php file and add todays date in the
+      installation date:
+
+          $core_config['release']['install_date'] = "01-16-2008";
+
+      and save it.
+
+   4. Change the installer so that nobody can use it. Most ISP's give you a
+      file manager from which you can select the installation/installer.php
+      file and remove all permissions. Alternatively you can do it from the
+      command line:
+
+          chmod 0000 installation/installer.php
+
+   5. Re-point your OpenID url from your old directory to your new
+      directory. You are done!
+
+// DOCUMENT ENDS -------------------------------------------------------

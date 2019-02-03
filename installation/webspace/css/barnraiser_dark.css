@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+  color: black;
+}
+
+#am_menu_container {
+  font-size: 70%;
+  text-align: right;
+  padding: 4px;
+  background-color: #333;
+}
+
+.block, .box {
+  background-color:white;
+  padding:4px;
+  margin-bottom: 12px;
+
+}
+
+.block_footer, .box_footer {
+  text-align: right;
+}
+
+
+a {
+  color: MidnightBlue;
+}
+
+#am_menu_container a {
+  color: #eee;
+}
+
+.gallery_item {
+   float: left;
+}
+
+.block textarea {
+  color: #2e1f0a;
+  border: 1px solid LightSlateGray ;
+  padding: 2px;
+  width: 98%;
+}
+
+.header {
+  margin-bottom:3px;
+  margin-top: 12px;
+  background-color:Magenta; 
+  font-size: 1em;
+  padding: 4px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.box_header h1 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+img {
+  border: 1px solid #131314;
+}
+
+.add {
+  text-align: right;
+}
+
+input[type="submit"] {
+  margin:2px;
+}
+
+.rss_button {
+  border: 0px solid #131314;
+}
+
+.avatar_placeholder {
+background-color: DeepSkyBlue  ;
+border: 1px solid black;
+margin-bottom:3px;
+margin-right:3px;
+}
+
+.no_avatar {
+background-color: DodgerBlue;
+border: 1px solid black;
+margin-bottom:3px;
+margin-right:3px;
+}
+
+.avatar {
+background-color: white;
+border: 1px solid black;
+margin-bottom:3px;
+margin-right:3px;
+}

@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------
+// This file is part of AROUNDMe
+// 
+// Copyright (C) 2003-2008 Barnraiser
+// http://www.barnraiser.org/
+// info@barnraiser.org
+// 
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program; see the file COPYING.txt.  If not, see
+// <http://www.gnu.org/licenses/>
+// -----------------------------------------------------------------------
+ 
+
+>> Note: If you have feedback or have found a bug please report it to
+   our supporters network at http://www.barnraiser.org/
+
+
+>> 1.3; 16th January 2008
+   1. Reset trust checkbox added to login screen.
+   2. Favicon added.
+   3. Save identity profile at trust added.
+   4. Connection gallery limit attribute fixed.
+   5. Copylefts updated for 2008.
+   6. Updated the avatar paths to include full URL.
+
+
+>> 1.2; 30th December 2007
+   1. Installation header check fixed for HTTP 1.0 and 1.1.
+   2. Mkdir fixed for umask issue.
+
+
+>> 21st December 2007 - Version 1.1
+   Some small changes made to the OpenID classes and some bug fixes.
+
+
+>> 19th November 2007 - Version 1.0
+   Initial release of AROUNDMe Personal identity.
+
+// DOCUMENT ENDS -------------------------------------------------------
